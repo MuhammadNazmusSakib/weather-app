@@ -48,18 +48,18 @@ body {
     width: 1.56rem;
 }
 
-.temperature {
+.weather {
     margin-bottom: 5rem;
 }
-.temperature img {
+.weather img {
     width: 40%;
 }
-.temperature h1 {
+.temp {
     font-size: 6.9rem;
     font-weight: 100;
 }
-.temperature p {
-    font-size: 3.13rem;
+.city {
+    font-size: 4.13rem;
     font-weight: 100;
 }
 
@@ -70,7 +70,7 @@ body {
 }
 .weather-content img {
     width: 2.5rem;
-    height: 1.9rem;
+    height: 2.2rem;
 }
 .weather-content-element {
     display: flex;
@@ -79,4 +79,8 @@ body {
 }
 .weather-content-element div {
     text-align: left;
+}
+.weather-content-element p {
+    font-size: 1.3rem;
+
 }
